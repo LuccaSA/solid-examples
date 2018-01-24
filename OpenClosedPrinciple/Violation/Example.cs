@@ -1,4 +1,0 @@
-namespace SolidExamples.OpenClosedPrinciple.Violation
-{
-
-}
