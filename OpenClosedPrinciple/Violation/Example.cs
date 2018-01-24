@@ -1,0 +1,4 @@
+namespace SolidExamples.OpenClosedPrinciple.Violation
+{
+
+}

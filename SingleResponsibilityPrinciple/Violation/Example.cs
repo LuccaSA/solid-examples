@@ -1,0 +1,4 @@
+namespace SolidExamples.SingleResponsibilityPrinciple.Violation
+{
+
+}

@@ -1,0 +1,4 @@
+namespace SolidExamples.InterfaceSegregationPrinciple.Violation
+{
+
+}
