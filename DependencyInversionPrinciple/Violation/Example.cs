@@ -1,4 +1,0 @@
-namespace SolidExamples.DependencyInversionPrinciple.Violation
-{
-
-}
