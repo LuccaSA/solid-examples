@@ -1,6 +1,5 @@
 namespace SolidExamples.SingleResponsibilityPrinciple.Violation
 {
-
     class Square
     {
         private readonly int _sideLength;
@@ -37,5 +36,4 @@ namespace SolidExamples.SingleResponsibilityPrinciple.Violation
             return printedSquare;
         }
     }
-
 }

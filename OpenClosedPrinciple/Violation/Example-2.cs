@@ -1,3 +1,6 @@
+using SolidExamples.OpenClosedPrinciple.Solution;
+using System;
+
 namespace SolidExamples.OpenClosedPrinciple.Violation2
 {
     public class Rectangle

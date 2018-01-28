@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-    public interface IShape
+	public interface IShape
     {
         double Area();
     }
@@ -28,7 +26,6 @@ namespace SolidExamples.OpenClosedPrinciple.Solution
         }
     }
 
-    
     public class AreaCalculator
     {
         public double Area(IShape[] shapes)
