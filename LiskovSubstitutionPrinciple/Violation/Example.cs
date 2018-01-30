@@ -2,31 +2,31 @@ using System;
 
 namespace SolidExamples.LiskovSubstitutionPrinciple.Violation
 {
-    class Example
-    {
-        public void TestRectangleArea()
-        {
-            var rectangle = new Rectangle();
+	class Example
+	{
+		public void TestRectangleArea()
+		{
+			var rectangle = new Rectangle();
 
-            AssertArea(rectangle);
-        }
+			AssertArea(rectangle);
+		}
 
-        public void TestSquareArea()
-        {
-            var square = new Square();
+		public void TestSquareArea()
+		{
+			var square = new Square();
 
-            AssertArea(square);
-        }
+			AssertArea(square);
+		}
 
-        public void AssertArea(Rectangle rectangle)
-        {
-            rectangle.SetWidth(5);
-            rectangle.SetHeight(4);
+		public void AssertArea(Rectangle rectangle)
+		{
+			rectangle.SetWidth(5);
+			rectangle.SetHeight(4);
 
-            if (rectangle.Area() != 20)
-            {
-                throw new Exception("Wrong area!");
-            }
-        }
-    }
+			if (rectangle.Area() != 20)
+			{
+				throw new Exception("Wrong area!");
+			}
+		}
+	}
 }

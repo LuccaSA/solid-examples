@@ -2,23 +2,23 @@ using System;
 
 namespace SolidExamples.OpenClosedPrinciple.Violation
 {
-    class CircleDrawer
-    {
-        private readonly Circle _circle;
+	class CircleDrawer
+	{
+		private readonly Circle _circle;
 
-        public CircleDrawer(Circle circle)
-        {
-            _circle = circle;
-        }
+		public CircleDrawer(Circle circle)
+		{
+			_circle = circle;
+		}
 
-        public void Draw()
-        {
-            DrawCircle(_circle.Radius);
-        }
+		public void Draw()
+		{
+			DrawCircle(_circle.Radius);
+		}
 
-        private void DrawCircle(int radius)
-        {
-            throw new NotImplementedException();
-        }
-    }
+		private void DrawCircle(int radius)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

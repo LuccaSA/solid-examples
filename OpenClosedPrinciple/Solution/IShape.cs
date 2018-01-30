@@ -1,6 +1,6 @@
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-    interface IShape
-    {
-    }
+	interface IShape
+	{
+	}
 }

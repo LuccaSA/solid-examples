@@ -1,7 +1,7 @@
 ﻿namespace SolidExamples.LiskovSubstitutionPrinciple.Violation
 {
 	class Rectangle
-    {
+	{
 		private int _width;
 		private int _height;
 

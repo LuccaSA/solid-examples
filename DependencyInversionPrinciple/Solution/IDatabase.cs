@@ -3,7 +3,7 @@
 namespace SolidExamples.DependencyInversionPrinciple.Solution
 {
 	interface IDatabase
-    {
+	{
 		IEnumerable<T> GetAllData<T>();
 	}
 }

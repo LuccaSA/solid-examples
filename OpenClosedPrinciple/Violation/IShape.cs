@@ -1,6 +1,6 @@
 namespace SolidExamples.OpenClosedPrinciple.Violation
 {
-    interface IShape
-    {
-    }
+	interface IShape
+	{
+	}
 }

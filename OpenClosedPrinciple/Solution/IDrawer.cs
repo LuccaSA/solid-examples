@@ -1,7 +1,7 @@
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-    interface IDrawer
-    {
-        void Draw();
-    }
+	interface IDrawer
+	{
+		void Draw();
+	}
 }
