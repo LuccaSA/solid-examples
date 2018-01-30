@@ -9,7 +9,6 @@ namespace SolidExamples.LiskovSubstitutionPrinciple.Solution
 			var rectangle = new Rectangle();
 			rectangle.SetWidth(5);
 			rectangle.SetHeight(4);
-
 			AssertArea(20, rectangle);
 		}
 
@@ -17,16 +16,12 @@ namespace SolidExamples.LiskovSubstitutionPrinciple.Solution
 		{
 			var square = new Square();
 			square.SetSize(5);
-
 			AssertArea(25, square);
 		}
 
-		public void AssertArea(int expected, IShape actualShape)
+		private void AssertArea(int expected, IShape actualShape)
 		{
-			if (actualShape.Area() != expected)
-			{
-				throw new Exception("Wrong area!");
-			}
+			if (actualShape.Area() != expected) throw new Exception("Wrong area!");
 		}
 	}
 }

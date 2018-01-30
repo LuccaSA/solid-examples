@@ -13,11 +13,6 @@ namespace SolidExamples.OpenClosedPrinciple.Solution
 
 		public void Draw()
 		{
-			DrawCircle(_circle.Radius);
-		}
-
-		private void DrawCircle(int radius)
-		{
 			throw new NotImplementedException();
 		}
 	}

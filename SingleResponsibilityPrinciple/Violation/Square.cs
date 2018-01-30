@@ -1,3 +1,5 @@
+using System;
+
 namespace SolidExamples.SingleResponsibilityPrinciple.Violation
 {
 	class Square
@@ -9,17 +11,9 @@ namespace SolidExamples.SingleResponsibilityPrinciple.Violation
 			_size = size;
 		}
 
-		private void drawLine(int xa, int ya, int xb, int yb)
-		{
-			//Do something;
-		}
-
 		public void Draw()
 		{
-			drawLine(0, 0, _size, 0);
-			drawLine(0, 0, 0, _size);
-			drawLine(0, _size, _size, _size);
-			drawLine(_size, 0, _size, _size);
+			throw new NotImplementedException();
 		}
 	}
 }

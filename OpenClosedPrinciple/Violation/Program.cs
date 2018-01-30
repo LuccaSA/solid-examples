@@ -4,12 +4,9 @@ namespace SolidExamples.OpenClosedPrinciple.Violation
 	{
 		public void Main()
 		{
-			var shapes = new IShape[]
-			{
-				new Square(5), new Circle(1) /*, ...*/
-			};
+			var shapes = new IShape[] {	new Square(5), new Circle(1) /*, ...*/ };
 
-			foreach (var shape in shapes)
+			foreach (IShape shape in shapes)
 			{
 				if (shape is Square)
 				{
