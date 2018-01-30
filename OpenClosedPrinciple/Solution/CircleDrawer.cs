@@ -2,9 +2,8 @@ using System;
 
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-    public class CircleDrawer : IDrawer
+    class CircleDrawer : IDrawer
     {
-
         private readonly Circle _circle;
 
         public CircleDrawer(Circle circle)

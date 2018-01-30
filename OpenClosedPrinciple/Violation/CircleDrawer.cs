@@ -2,9 +2,8 @@ using System;
 
 namespace SolidExamples.OpenClosedPrinciple.Violation
 {
-    public class CircleDrawer
+    class CircleDrawer
     {
-
         private readonly Circle _circle;
 
         public CircleDrawer(Circle circle)

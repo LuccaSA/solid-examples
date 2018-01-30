@@ -1,12 +1,14 @@
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-
-    public class Square : IShape
+    class Square : IShape
     {
-        public int SideLength { get { return _sideLength; } }
-        public readonly int _sideLength;
-        public Square(int sideLength){
-            _sideLength = sideLength;
+        public int Size { get { return _size; } }
+
+        public readonly int _size;
+
+        public Square(int size)
+		{
+            _size = size;
         }
     }
 }

@@ -1,6 +1,6 @@
 namespace SolidExamples.OpenClosedPrinciple.Violation
 {
-    public class Program
+    class Program
     {
         public void Main()
         {
@@ -13,7 +13,12 @@ namespace SolidExamples.OpenClosedPrinciple.Violation
                     var drawer = new SquareDrawer((Square)shape);
                     drawer.Draw();
                 }
-                //else if ...
+                else if(shape is Circle)
+                {
+                    var drawer = new CircleDrawer((Circle)shape);
+                    drawer.Draw();
+                }
+                // ...
             }
         }
     }

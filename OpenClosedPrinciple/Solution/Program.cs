@@ -1,7 +1,6 @@
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-
-    public class Program
+    class Program
     {
         public void Main()
         {
@@ -11,7 +10,7 @@ namespace SolidExamples.OpenClosedPrinciple.Solution
                 new CircleDrawer(new Circle(1))
             };
 
-            foreach(var drawer in drawers){
+            foreach(IDrawer drawer in drawers){
                 drawer.Draw();
             }
         }

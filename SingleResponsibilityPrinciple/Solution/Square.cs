@@ -1,12 +1,14 @@
 namespace SolidExamples.SingleResponsibilityPrinciple.Solution
 {
-
-    public class Square
+    class Square
     {
-        public int SideLength { get { return _sideLength; } }
-        private readonly int _sideLength;
-        public Square(int sideLength){
-            _sideLength = sideLength;
+        public int Size { get { return _size; } }
+
+        private readonly int _size;
+
+        public Square(int size)
+		{
+            _size = size;
         }
     }
 }

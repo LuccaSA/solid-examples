@@ -1,7 +1,6 @@
 namespace SolidExamples.SingleResponsibilityPrinciple.Solution
 {
-
-    public class Program
+    class Program
     {
         public void Main()
         {

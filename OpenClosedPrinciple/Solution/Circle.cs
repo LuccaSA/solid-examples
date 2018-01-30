@@ -1,9 +1,11 @@
-namespace SolidExamples.OpenClosedPrinciple.Violation
+namespace SolidExamples.OpenClosedPrinciple.Solution
 {
-    public class Circle : IShape
+    class Circle : IShape
     {
-        public int Radius {get;}
+        public int Radius { get; }
+
         private readonly int _radius;
+
         public Circle(int radius)
         {
             _radius = radius;
