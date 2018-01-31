@@ -1,5 +1,3 @@
-using System;
-
 namespace SolidExamples.OpenClosedPrinciple.Violation
 {
 	class CircleDrawer
@@ -13,7 +11,7 @@ namespace SolidExamples.OpenClosedPrinciple.Violation
 
 		public void Draw()
 		{
-			throw new NotImplementedException();
+			// Doing some complicated stuff
 		}
 	}
 }

@@ -1,5 +1,3 @@
-using System;
-
 namespace SolidExamples.OpenClosedPrinciple.Solution
 {
 	class SquareDrawer : IDrawer
@@ -13,7 +11,7 @@ namespace SolidExamples.OpenClosedPrinciple.Solution
 
 		public void Draw()
 		{
-			throw new NotImplementedException();
+			// Doing some complicated stuff
 		}
 	}
 }

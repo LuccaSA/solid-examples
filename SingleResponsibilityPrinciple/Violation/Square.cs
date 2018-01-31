@@ -1,5 +1,3 @@
-using System;
-
 namespace SolidExamples.SingleResponsibilityPrinciple.Violation
 {
 	class Square
@@ -13,7 +11,7 @@ namespace SolidExamples.SingleResponsibilityPrinciple.Violation
 
 		public void Draw()
 		{
-			throw new NotImplementedException();
+			// Doing some complicated stuff
 		}
 	}
 }
