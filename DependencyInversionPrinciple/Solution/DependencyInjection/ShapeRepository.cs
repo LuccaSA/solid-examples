@@ -5,7 +5,7 @@ namespace SolidExamples.DependencyInversionPrinciple.Solution.DependencyInjectio
 {
 	class ShapeRepository
 	{
-		private IDatabase _database;
+		private readonly IDatabase _database;
 
 		public ShapeRepository(IDatabase database)
 		{
